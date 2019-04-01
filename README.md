@@ -4,7 +4,7 @@
 
 上文中，作者在webpack(4.3.0)下，分析了webpack的hash稳定性问题，并最终通过`HashedModuleIdsPlugin`解决了问题，详见[webpack/4.3.0](https://github.com/hushicai/webpack-hash-test/tree/webpack/4.3.0)分支。
 
-我用最新版webpack(4.29.6)测试了以下，发现新版已经解决了hash稳定性问题。
+我用最新版webpack(4.29.6)测试了一下，发现新版似乎已经解决了该问题。
 
 ```
 # 没有引用b.js
