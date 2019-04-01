@@ -1,5 +1,4 @@
 const path = require('path');
-const {HashedModuleIdsPlugin} = require('webpack');
 
 module.exports = {
     mode: 'production',
@@ -18,8 +17,5 @@ module.exports = {
             chunks: 'all',
         },
         runtimeChunk: true,
-    },
-    plugins: [
-        new HashedModuleIdsPlugin()
-    ]
+    }
 };
